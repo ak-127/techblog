@@ -1,0 +1,20 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}
+|Techblog-Home|{% endblock title %}
+
+{% block content %}
+
+<div class="col-sm-10">
+  <h3 class="text-white my-5">
+    Home page
+  </h3>
+  {% for po in post %}
+  <div class="jumbotron border border-secondary border-3 rounded-3 shadow py-3 px-5 my-4">
+    <h1 class="display-4">{{po.title}}</h1>
+    <p class="lead">{{po.desc}}</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </div>
+  {% endfor %}
+</div>
+{% endblock content %}
