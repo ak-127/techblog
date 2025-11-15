@@ -1,15 +1,3 @@
-Great — here is a **premium, fully polished README.md** with:
-
-✅ Badges
-✅ Screenshot placeholders
-✅ Hero section
-✅ Better structure
-✅ Cleaner formatting
-
-You can copy/paste this directly into your repository.
-
----
-
 # **TechBlog**
 
 *A clean and modern technical blogging platform built with Django.*
